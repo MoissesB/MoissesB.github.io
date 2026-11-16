@@ -1,0 +1,14 @@
+{
+  "generatedAt": "2026-11-09T17:42:14.755Z",
+  "models": 47,
+  "variants": 140,
+  "productRoutes": 280,
+  "modelAliasRoutes": 94,
+  "legacyVariantRoutes": 140,
+  "localDriveImages": 60,
+  "blogArticles": 6,
+  "sitemapRoutes": 578,
+  "analyticsHostname": "thalia-innova.com",
+  "publication": false,
+  "mediaPolicy": "remote-ghl-and-local-drive-variant-assets"
+}

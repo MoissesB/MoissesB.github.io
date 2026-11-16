@@ -1,0 +1,107 @@
+[
+  {
+    "slug": "seleccion-b2b-24-piezas",
+    "date": "2026-08-07",
+    "coverModel": "TS-01",
+    "es": {
+      "category": "Guía para ópticas",
+      "title": "Cómo construir una selección B2B de 24 piezas",
+      "excerpt": "Una guía práctica para combinar modelos, colores y cantidades con una lectura clara de vitrina.",
+      "readingTime": "4 min",
+      "content": [
+        {"type":"lead","text":"Una selección comercial equilibrada no depende de repetir una sola referencia. El objetivo es crear una mezcla reconocible, fácil de explicar y flexible para distintos perfiles de clienta."},
+        {"type":"heading","text":"Empieza por modelos ancla"},
+        {"type":"paragraph","text":"Elige primero los diseños que definen la identidad de la colección. Después incorpora alternativas más discretas y otras con mayor presencia lateral para construir contraste en la exhibición."},
+        {"type":"heading","text":"Distribuye el color con intención"},
+        {"type":"paragraph","text":"Combina tonos fáciles de integrar con acentos que aporten novedad. La selección digital permite revisar cada variante y ajustar sus unidades antes de preparar la solicitud comercial."},
+        {"type":"callout","text":"El flujo de Thalia permite combinar libremente modelos y colores hasta completar un mínimo total de 24 piezas."},
+        {"type":"heading","text":"Revisa el conjunto, no solo cada montura"},
+        {"type":"paragraph","text":"Antes de continuar, comprueba que la selección tenga variedad de siluetas, colores y niveles de detalle. El resumen final conserva el código exacto de cada variante y su cantidad."}
+      ]
+    },
+    "en": {
+      "category": "Optical store guide",
+      "title": "How to build a 24-piece B2B selection",
+      "excerpt": "A practical guide to combining styles, colors and quantities into a clear display story.",
+      "readingTime": "4 min",
+      "content": [
+        {"type":"lead","text":"A balanced commercial selection does not rely on repeating a single reference. The goal is to create a recognizable mix that is easy to present and flexible for different customers."},
+        {"type":"heading","text":"Start with anchor styles"},
+        {"type":"paragraph","text":"Choose the designs that define the collection first. Then add quieter alternatives and styles with stronger temple details to create contrast in the display."},
+        {"type":"heading","text":"Distribute color intentionally"},
+        {"type":"paragraph","text":"Combine versatile tones with accents that add novelty. The digital selection lets you review every variant and adjust its units before preparing the commercial request."},
+        {"type":"callout","text":"The Thalia flow lets you freely combine styles and colors until reaching a total minimum of 24 pieces."},
+        {"type":"heading","text":"Review the group, not just each frame"},
+        {"type":"paragraph","text":"Before continuing, confirm that the selection includes varied silhouettes, colors and levels of detail. The final summary keeps the exact code and quantity of every variant."}
+      ]
+    }
+  },
+  {
+    "slug": "detalles-laterales-y-varillas",
+    "date": "2026-08-07",
+    "coverModel": "TS-33",
+    "es": {
+      "category": "Presentación de producto",
+      "title": "La varilla también cuenta la historia del modelo",
+      "excerpt": "Cómo usar la vista 360° y los detalles laterales para presentar mejor una montura.",
+      "readingTime": "3 min",
+      "content": [
+        {"type":"lead","text":"El frente de una montura genera la primera impresión, pero el lateral completa su personalidad. Los detalles de varilla aportan argumentos visuales que funcionan tanto en vitrina como durante la atención consultiva."},
+        {"type":"heading","text":"Muestra el modelo en movimiento"},
+        {"type":"paragraph","text":"La rotación 360° permite observar volumen, proporciones y continuidad del diseño. En la ficha de producto puede alternarse con la galería sin perder la variante seleccionada."},
+        {"type":"heading","text":"Acerca los acabados"},
+        {"type":"paragraph","text":"El zoom ayuda a revisar uniones, terminales y acentos decorativos. Utiliza las miniaturas para recorrer primero la forma general y después detenerte en los detalles."},
+        {"type":"callout","text":"Una presentación completa combina vista frontal, lateral, interior, terminal y video cuando la fuente del modelo lo permite."}
+      ]
+    },
+    "en": {
+      "category": "Product presentation",
+      "title": "The temple also tells the story of the frame",
+      "excerpt": "How to use the 360° view and side details to present a frame more clearly.",
+      "readingTime": "3 min",
+      "content": [
+        {"type":"lead","text":"The front of a frame creates the first impression, but the side completes its personality. Temple details add visual talking points for both displays and consultative service."},
+        {"type":"heading","text":"Show the frame in motion"},
+        {"type":"paragraph","text":"The 360° rotation reveals volume, proportions and design continuity. On the product page it can be alternated with the gallery without losing the selected variant."},
+        {"type":"heading","text":"Bring the finishes closer"},
+        {"type":"paragraph","text":"Zoom helps review joints, tips and decorative accents. Use the thumbnails to understand the overall form first and then focus on individual details."},
+        {"type":"callout","text":"A complete presentation combines front, side, interior, tip and video views whenever the model source provides them."}
+      ]
+    }
+  },
+  {
+    "slug": "color-en-la-vitrina",
+    "date": "2026-08-07",
+    "coverModel": "TS-24",
+    "es": {
+      "category": "Visual merchandising",
+      "title": "Cómo leer el color antes de llevarlo a la vitrina",
+      "excerpt": "Tres criterios sencillos para comparar variantes y crear una exhibición coherente.",
+      "readingTime": "4 min",
+      "content": [
+        {"type":"lead","text":"La variante correcta no se elige de forma aislada. Conviene revisar cómo dialoga con los tonos ya presentes, con la iluminación y con la narrativa general de la colección."},
+        {"type":"heading","text":"Compara siempre la misma vista"},
+        {"type":"paragraph","text":"Al cambiar entre C1, C2 y C3, mantén la misma posición de galería. Esto permite distinguir el efecto del color sin que el ángulo de la fotografía altere la comparación."},
+        {"type":"heading","text":"Alterna bases y acentos"},
+        {"type":"paragraph","text":"Las tonalidades versátiles pueden ordenar la composición, mientras que los acentos aportan ritmo. Una selección equilibrada evita que toda la vitrina compita por atención al mismo tiempo."},
+        {"type":"heading","text":"Usa el código completo"},
+        {"type":"paragraph","text":"Registra siempre modelo y variante. La selección de pedido conserva ambos datos para que el resumen comercial sea inequívoco."}
+      ]
+    },
+    "en": {
+      "category": "Visual merchandising",
+      "title": "How to read color before it reaches the display",
+      "excerpt": "Three simple criteria for comparing variants and creating a coherent presentation.",
+      "readingTime": "4 min",
+      "content": [
+        {"type":"lead","text":"The right variant is not chosen in isolation. Review how it works with the tones already present, the lighting and the overall story of the collection."},
+        {"type":"heading","text":"Always compare the same view"},
+        {"type":"paragraph","text":"When switching between C1, C2 and C3, keep the same gallery position. This reveals the effect of color without letting the photo angle distort the comparison."},
+        {"type":"heading","text":"Alternate foundations and accents"},
+        {"type":"paragraph","text":"Versatile tones can organize the composition, while accents add rhythm. A balanced selection prevents every frame in the display from competing for attention at once."},
+        {"type":"heading","text":"Use the complete code"},
+        {"type":"paragraph","text":"Always record both style and variant. The order selection keeps both values so the commercial summary remains unambiguous."}
+      ]
+    }
+  }
+]

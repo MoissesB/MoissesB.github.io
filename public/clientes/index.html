@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow,noarchive">
+  <meta name="referrer" content="no-referrer">
+  <meta name="description" content="Biblioteca de recursos Thalia Sodi Eyewear para ópticas autorizadas.">
+  <link rel="icon" href="https://assets.cdn.filesafe.space/7ajd81nGWWyWcVhQpDgi/media/6a236bbfda24932f122ea9fd.png">
+  <script>
+    if (new URLSearchParams(location.search).has('access')) {
+      document.documentElement.classList.add('access-pending');
+      setTimeout(() => {
+        if (!document.documentElement.classList.contains('access-pending')) return;
+        if (!sessionStorage.getItem('thalia-entry-reloaded')) {
+          sessionStorage.setItem('thalia-entry-reloaded', '1');
+          location.reload();
+          return;
+        }
+        document.documentElement.classList.remove('access-pending');
+        const status = document.getElementById('accessStatus');
+        if (status) {
+          document.getElementById('accessForm').hidden = true;
+          status.hidden = false;
+          status.textContent = 'La entrada está tardando. Espera un momento o abre de nuevo el enlace del correo.';
+        }
+      }, 25000);
+    }
+  </script>
+  <link rel="stylesheet" href="/clientes/portal.css">
+  <link rel="stylesheet" href="/clientes/entry-loader.css">
+  <script type="module" src="/clientes/portal.js"></script>
+  <title>Recursos para ópticas | Thalia Sodi Eyewear</title>
+</head>
+<body>
+  <div id="entryLoader" class="entry-loader" role="status" aria-live="polite">
+    <div class="entry-loader-content">
+      <div class="entry-loader-ring"><span class="entry-loader-mark"><img src="https://assets.cdn.filesafe.space/7ajd81nGWWyWcVhQpDgi/media/6a236bbfda24932f122ea9fd.png" alt="Logo de Thalia Sodi Eyewear" width="70" height="86"></span></div>
+      <p data-t="opening">Abriendo tu biblioteca…</p>
+    </div>
+  </div>
+  <a class="skip" href="#main" data-t="skip">Ir al contenido</a>
+  <header class="topbar">
+    <a class="brand" href="/es/b2b/" aria-label="Thalia Sodi Eyewear, catálogo profesional"><strong>Thalia Sodi</strong><span>EYEWEAR</span></a>
+    <div class="topbar-right"><span class="by-innova">UNA PLATAFORMA DE <b>INNOVA</b></span><button type="button" id="languageButton" class="language-button" aria-label="Change language">EN</button><a href="/es/b2b/" class="back-link" data-t="back">Volver al catálogo</a><button id="logoutButton" class="logout-button" type="button" hidden data-t="logout">Salir</button></div>
+  </header>
+  <main id="main">
+    <section class="hero">
+      <div class="hero-copy"><span class="eyebrow" data-t="eyebrow">THALIA SODI EYEWEAR · PARA ÓPTICAS</span><h1 data-t="headline">La colección, lista para compartir.</h1><p data-t="intro">Explora imágenes de cada modelo, videos y piezas para tus canales. Selecciona solo lo que necesitas y prepara tus descargas.</p><div class="hero-meta"><span>THALIA SODI</span><i></i><span>INNOVA EYEWEAR</span></div></div>
+      <div class="hero-image" role="img" aria-label="Colección Thalia Sodi Eyewear" style="background-image:url('https://assets.cdn.filesafe.space/7ajd81nGWWyWcVhQpDgi/media/6a238285f607d4002b9c5422.png')"><div class="hero-image-caption"><small data-t="heroCaptionTop">BIBLIOTECA PROFESIONAL</small><strong>Thalia Sodi</strong></div></div>
+    </section>
+    <section id="access" class="access-wrap" aria-live="polite">
+      <form id="accessForm" class="access-card"><span class="kicker" data-t="accessKicker">ACCESO PARA ÓPTICAS</span><h2 data-t="accessTitle">Entra con el correo aprobado.</h2><p id="accessExplanation" data-t="accessIntro">Si tu correo está autorizado, recibirás un enlace privado de acceso.</p><label for="accessEmail" data-t="email">Correo electrónico</label><input id="accessEmail" type="email" autocomplete="email" maxlength="254" required><button class="primary" id="accessSubmit" type="submit" data-t="requestLink">Solicitar enlace</button><p id="requestFeedback" class="request-feedback" role="status" aria-live="polite" hidden></p><p class="access-note" data-t="accessNote">El enlace es personal y caduca a los 15 minutos.</p><p id="previewLinkWrap" hidden></p></form>
+      <div class="access-status" id="accessStatus" role="status" hidden></div>
+    </section>
+    <section id="library" class="library" hidden>
+      <div class="library-heading"><div><span class="kicker" data-t="libraryKicker">BIBLIOTECA PARA TU ÓPTICA</span><h2 data-t="libraryTitle">Encuentra el recurso correcto.</h2><p data-t="libraryIntro">Filtra, amplía y prepara una selección para descargar.</p></div><span id="accessBadge" class="access-badge" data-t="approved">Acceso aprobado</span></div>
+      <div class="toolbar"><div class="tabs" role="tablist" aria-label="Tipo de recurso"><button class="active" type="button" role="tab" aria-selected="true" data-tab="models" data-t="modelsTab">Modelos</button><button type="button" role="tab" aria-selected="false" data-tab="videos" data-t="videosTab">Videos</button><button type="button" role="tab" aria-selected="false" data-tab="social" data-t="socialTab">Publicidad y redes</button><button type="button" role="tab" aria-selected="false" data-tab="logos" data-t="logosTab">Logos</button></div><span class="toolbar-brand">THALIA SODI</span><button type="button" id="filterToggle" class="filter-toggle" aria-expanded="true"><span data-t="filters">Filtros</span><span>⌄</span></button></div>
+      <div class="filter-row" id="filters"><label class="search-label"><span data-t="searchLabel">Buscar</span><input id="searchInput" type="search" placeholder="TS-06, color, archivo…"></label><label id="colorFilterWrap"><span data-t="color">Color</span><select id="colorFilter"><option value="" data-t="allColors">Todos</option></select></label><label id="formatFilterWrap" hidden><span data-t="format">Formato</span><select id="formatFilter"><option value="" data-t="allFormats">Todos los formatos</option><option value="vertical" data-t="vertical">Vertical</option><option value="horizontal" data-t="horizontal">Horizontal</option><option value="square" data-t="square">Cuadrado</option></select></label><label id="languageFilterWrap" hidden><span data-t="language">Idioma</span><select id="languageFilter"><option value="" data-t="allLanguages">Todos</option><option value="es" data-t="spanish">Español</option><option value="pending-review" data-t="pendingLanguage">Por revisar</option></select></label><button type="button" id="clearFilters" data-t="clear">Limpiar</button></div>
+      <div class="results"><strong id="resultsCount"></strong><span data-t="selectionHint">Puedes elegir modelos completos o archivos individuales.</span></div>
+      <div class="card-grid" id="cardGrid"></div><p id="emptyState" class="empty" hidden data-t="empty">No hay recursos con estos filtros.</p>
+    </section>
+  </main>
+  <button type="button" id="cartButton" class="cart-button" hidden><span data-t="myDownloads">Mis descargas</span><b id="cartCount">0</b></button>
+  <div class="scrim" id="scrim" hidden></div><aside class="drawer" id="drawer" aria-labelledby="cartTitle" role="dialog" aria-modal="true" hidden><div class="drawer-head"><div><span class="kicker">THALIA SODI</span><h2 id="cartTitle" data-t="cartTitle">Tu selección</h2></div><button type="button" class="close" id="closeCart" aria-label="Cerrar">×</button></div><p data-t="cartIntro">Los lotes ZIP incluirán únicamente los archivos elegidos.</p><ul id="cartList"></ul><div class="drawer-actions"><button type="button" id="clearCart" class="secondary" data-t="clearSelection">Vaciar selección</button><button type="button" id="downloadZip" class="primary" data-t="downloadZip">Descargar ZIP</button></div></aside>
+  <dialog id="detailDialog" class="detail"><div class="dialog-top"><span class="kicker">THALIA SODI EYEWEAR</span><button type="button" id="closeDetail" class="close" aria-label="Cerrar">×</button></div><div id="detailBody"></div></dialog>
+  <dialog id="mediaDialog" class="media-dialog"><div class="dialog-top"><strong id="mediaTitle"></strong><button type="button" id="closeMedia" class="close" aria-label="Cerrar">×</button></div><div id="mediaBody"></div></dialog>
+  <dialog id="downloadDialog" class="download-dialog" aria-labelledby="downloadTitle" aria-describedby="downloadStatus"><div class="download-panel"><span class="kicker">THALIA SODI EYEWEAR</span><span class="download-symbol" aria-hidden="true">↓</span><h2 id="downloadTitle" data-t="downloadTitle">Preparando tu descarga</h2><p id="downloadStatus" role="status" aria-live="polite"></p><div id="downloadProgress" class="download-progress" role="progressbar" aria-label="Progreso de la descarga" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><span id="downloadProgressFill"></span></div><strong id="downloadPercent">0%</strong><small data-t="downloadWait">Mantén esta página abierta hasta que termine.</small></div></dialog>
+  <div class="toast" id="toast" role="status" hidden></div>
+  <footer><span>Thalia Sodi Eyewear · Innova Eyewear</span><a href="/es/b2b/" data-t="back">Volver al catálogo</a></footer>
+</body>
+</html>

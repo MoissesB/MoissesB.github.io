@@ -1,0 +1,13 @@
+{
+  "name": "thalia-venezuela-deploy",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node render-server.mjs",
+    "check": "node --check render-server.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

@@ -1,0 +1,76 @@
+html.access-pending body { overflow: hidden; }
+
+.entry-loader {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  display: none;
+  place-items: center;
+  min-height: 100vh;
+  min-height: 100dvh;
+  padding: 24px;
+  background: radial-gradient(circle at center, #fff 0, #f8f2ef 60%, #efe4df 100%);
+}
+
+html.access-pending .entry-loader { display: grid; }
+
+.entry-loader-content {
+  display: grid;
+  justify-items: center;
+  gap: 25px;
+  text-align: center;
+}
+
+.entry-loader-ring {
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: 154px;
+  height: 154px;
+  border-radius: 50%;
+}
+
+.entry-loader-ring::before {
+  position: absolute;
+  inset: 0;
+  border: 3px solid #e8d8d2;
+  border-top-color: #84574e;
+  border-right-color: #b88878;
+  border-radius: 50%;
+  content: '';
+  animation: thalia-entry-spin 1.1s linear infinite;
+}
+
+.entry-loader-mark {
+  display: grid;
+  place-items: center;
+  width: 112px;
+  height: 112px;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: 0 8px 30px rgb(73 42 37 / 12%);
+}
+
+.entry-loader-mark img {
+  display: block;
+  width: 70px;
+  height: 86px;
+  object-fit: contain;
+}
+
+.entry-loader-content p {
+  margin: 0;
+  color: #68463f;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+}
+
+.access-status .primary { margin-top: 16px; }
+
+@keyframes thalia-entry-spin { to { transform: rotate(360deg); } }
+
+@media (prefers-reduced-motion: reduce) {
+  .entry-loader-ring::before { animation: none; }
+}

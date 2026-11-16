@@ -1,0 +1,30 @@
+{
+  "brand": "Thalia Sodi Eyewear",
+  "businessLabel": "Innova Eyewear B2B",
+  "minimumOrder": 24,
+  "whatsappNumber": "17542758914",
+  "futureDomain": "https://thalia-innova.com",
+  "currentSourceDomain": "https://catalogo.thalia-innova.com",
+  "faviconUrl": "https://assets.cdn.filesafe.space/7ajd81nGWWyWcVhQpDgi/media/6a236bbfda24932f122ea9fd.png",
+  "organizationName": "INNOVA Worldwide Corp.",
+  "analytics": {
+    "primaryHostname": "thalia-innova.com",
+    "measurementId": "G-Z1LR9K4MKV"
+  },
+  "mediaHost": "assets.cdn.filesafe.space",
+  "heroDesktop": [
+    "https://assets.cdn.filesafe.space/7ajd81nGWWyWcVhQpDgi/media/6a238285f607d4002b9c5422.png",
+    "https://assets.cdn.filesafe.space/7ajd81nGWWyWcVhQpDgi/media/6a238285fc95b245499215c9.png",
+    "https://assets.cdn.filesafe.space/7ajd81nGWWyWcVhQpDgi/media/6a23827f49e55f85197f6868.png"
+  ],
+  "heroMobile": [
+    "https://assets.cdn.filesafe.space/7ajd81nGWWyWcVhQpDgi/media/6a23828549e55f85197f68b4.png",
+    "https://assets.cdn.filesafe.space/7ajd81nGWWyWcVhQpDgi/media/6a23827ffc95b245499215a5.png",
+    "https://assets.cdn.filesafe.space/7ajd81nGWWyWcVhQpDgi/media/6a23827f6a06f03d447c090b.png",
+    "https://assets.cdn.filesafe.space/7ajd81nGWWyWcVhQpDgi/media/6a23827f49e55f85197f6856.png",
+    "https://assets.cdn.filesafe.space/7ajd81nGWWyWcVhQpDgi/media/6a23827ff607d4002b9c53cb.png"
+  ],
+  "introVideo": "https://assets.cdn.filesafe.space/7ajd81nGWWyWcVhQpDgi/media/69fbd0230394c985037b299a.mp4",
+  "templeVideo": "https://assets.cdn.filesafe.space/7ajd81nGWWyWcVhQpDgi/media/6a16cc6b5be84ad64002bd59.mp4",
+  "editorialPoster": "https://assets.cdn.filesafe.space/7ajd81nGWWyWcVhQpDgi/media/6a16b9df449f78709ee7daa1.jpg"
+}
